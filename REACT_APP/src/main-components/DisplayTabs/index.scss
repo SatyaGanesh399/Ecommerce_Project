@@ -1,0 +1,42 @@
+@import '../../App.scss';
+
+.display-tabs{
+    padding : 10px;
+}
+.tab-container{
+    border-radius: 20px;
+}
+.top-tabs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+.bottom-tabs{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.tabs-red-button{
+    background-color: $red !important;
+    font-size: $font-lg;
+    font-weight: $font-semibold;
+    color : $white;
+    border : rgba($color: #000000, $alpha: 0)
+}
+.tabs-red-button:hover{
+    border : 1px solid $red !important;
+    background-color : transparent !important;
+    color : $red !important;
+}
+.tabs-white-button{
+    background-color: $white !important;
+    font-size: $font-lg;
+    font-weight: $font-semibold;
+    color : transparent;
+    border : rgba($color: #000000, $alpha: 0)
+}
+.tabs-white-button:hover{
+    border : 1px solid $white !important;
+    background-color : transparent !important;
+    color : $white !important;
+}

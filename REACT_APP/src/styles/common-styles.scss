@@ -1,0 +1,34 @@
+.d-flex{
+    display : flex;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-start{
+    align-items: start;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-start{
+    justify-content: start;
+}
+.flex-column{
+    flex-direction: column;
+}
+.gap-10{
+    gap : 10px;
+}
+.margin-10{
+    margin : 10px;
+}
+.margin-20{
+    margin : 20px;
+}
+.divider-margin{
+    margin-top : 10px;
+    margin-bottom : 10px;
+}

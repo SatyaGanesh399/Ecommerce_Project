@@ -1,0 +1,30 @@
+
+$primary-color: #27374D;
+$secondary-color: #526D82;
+$tertiary-color : #9DB2BF;
+$light-color : #DDE6ED;
+$white : #fff;
+$red : #e1007e;
+
+
+
+$font-md : 1.1rem;
+$font-sm : 0.9rem;
+$font-lg : 1.5rem;
+$font-xl : 2rem;
+$font-2xl : 3rem;
+
+$font-thin : 300;
+$font-semibold : 500;
+$font-bold : 700;
+
+
+:root {
+  --primary-color: #{$primary-color};
+  --secondary-color: #{$secondary-color};
+}
+
+.container{
+  box-sizing: border-box;
+  
+}
