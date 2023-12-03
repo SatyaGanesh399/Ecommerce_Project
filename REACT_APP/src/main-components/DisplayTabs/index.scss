@@ -2,26 +2,36 @@
 
 .display-tabs{
     padding : 10px;
+    margin-top: 10px;
 }
 .tab-container{
+    box-sizing: border-box;
     border-radius: 20px;
 }
 .top-tabs{
     display: grid;
+    gap : 20px;
     grid-template-columns: 1fr 1fr 2fr;
     grid-template-rows: 1fr;
+    margin-bottom: 20px;
 }
 .bottom-tabs{
     display: grid;
+    gap : 20px;
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-rows: 1fr;
+    margin-bottom: 20px;
 }
 .tabs-red-button{
+    width : 160px;
     background-color: $red !important;
     font-size: $font-lg;
     font-weight: $font-semibold;
     color : $white;
-    border : rgba($color: #000000, $alpha: 0)
+    border : rgba($color: #000000, $alpha: 0);
+    position : absolute;
+    left : 20px;
+    bottom : 20px;
 }
 .tabs-red-button:hover{
     border : 1px solid $red !important;
@@ -29,14 +39,94 @@
     color : $red !important;
 }
 .tabs-white-button{
+    width : 160px;
     background-color: $white !important;
     font-size: $font-lg;
     font-weight: $font-semibold;
-    color : transparent;
-    border : rgba($color: #000000, $alpha: 0)
+    color : black;
+    border : rgba($color: #000000, $alpha: 0);
+    position : absolute;
+    left : 20px;
+    bottom : 20px;
 }
 .tabs-white-button:hover{
     border : 1px solid $white !important;
     background-color : transparent !important;
     color : $white !important;
 }
+.small-tab-container{
+    width : 350px;
+    height : 250px;
+
+    position: relative;
+}
+.big-tab-container{
+
+    position: relative;
+}
+.small-tab-left{
+    margin-left: 20px;
+}
+.text1{
+    font-size:  $font-md;
+    font-weight : $font-bold;
+}
+.text2{
+    font-size:  $font-lg;
+    font-weight : $font-bold;
+}
+.text3{
+    font-size:  $font-2xl;
+    font-weight : $font-bold;
+    opacity: 0.4;
+}
+
+.small-tab-image{
+    width : 200px;
+    position: absolute;
+    top : 30px;
+    right : 10px;
+}
+.big-tab-image{
+    width : 350px;
+    position: absolute;
+    top : 10px;
+    right : 10px;
+}
+.blackColor-gradient{
+    background: #222222;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #363636, #222222);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #363636, #222222); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.yellow-gradient{
+    background: #CAC531;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdc62e, #ffc629);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdc62e, #ffc629); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.red-gradient{
+    background: #f42c37;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fc4b57,#f42c37);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc4b57, #f42c37); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.white-gradient{
+    background: #ededef;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ededef, #eeeeee);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ededef, #eeeeee); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.green-gradient{
+    background: #2ad16e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ad16e, #24d16b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ad16e, #24d16b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.blue-gradient{
+    background: #107cff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #107cff, #188dff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #107cff, #188dff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
