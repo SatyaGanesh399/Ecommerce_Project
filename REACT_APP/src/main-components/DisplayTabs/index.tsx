@@ -6,26 +6,62 @@ function index() {
   return (
     <div className='display-tabs'>
         <div className='top-tabs'>
-            <Smalltab />
-            <Smalltab />
+            <Smalltab 
+              text1="Enjoy"
+              text2="With"
+              text3="Earphones"
+              imgUrl="laptop-1.png"
+              buttonColor="red"
+              styleProp="blackColor-gradient"
+              textColor={{"color" : "white"}}
+              />
+            <Smalltab 
+              text1="New"
+              text2="Wearable"
+              text3="Gadgets"
+              imgUrl="laptop-1.png"
+              buttonColor="white"
+              styleProp="yellow-gradient"
+              textColor={{"color" : "white"}}
+              />
             <Bigtab
                 text1="Trend"
                 text2="Devices"
-                text3="Laptop"
+                text3="Smartphones"
                 imageurl="laptop-1.png"
-                buttonColor="red"
+                buttonColor="white"
+                styleProp="red-gradient"
+                textColor={{"color" : "white"}}
             />
         </div>
         <div className='bottom-tabs'>
         <Bigtab
-                text1="Trend"
-                text2="Devices"
-                text3="Laptop"
+                text1="Best"
+                text2="Gaming"
+                text3="Consoles"
                 imageurl="laptop-1.png"
-                buttonColor="white"
+                buttonColor="red"
+                styleProp="white-gradient font-black"
+                textColor={{"color" : "black"}}
             />
-            <Smalltab />
-            <Smalltab />
+            <Smalltab 
+              text1="Play"
+              text2="Game"
+              text3="Oculus"
+              imgUrl="laptop-1.png"
+              buttonColor="white"
+              styleProp="green-gradient"
+              textColor={{"color" : "white"}}
+            />
+            <Smalltab 
+              text1="New"
+              text2="Amazon"
+              text3="Speakers"
+              imgUrl="laptop-1.png"
+              buttonColor="white"
+              styleProp="blue-gradient"
+              textColor={{"color" : "white"}}
+            />
         </div>
     </div>
   )
