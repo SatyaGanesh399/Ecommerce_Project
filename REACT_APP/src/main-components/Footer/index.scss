@@ -1,0 +1,75 @@
+@import "../../App.scss";
+.footer-container {
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1.5fr;
+  grid-template-rows: 1fr;
+  align-items: flex-start;
+}
+.socialmedia-icon {
+  font-size: $font-lg;
+  color: $primary-color;
+  margin-right: 10px;
+}
+.footer-social-media {
+}
+.footer-item1 {
+  p {
+    font-size: $font-sm;
+    font-weight: $font-semibold;
+  }
+}
+.footer-heading {
+  font-size: $font-md !important;
+  font-weight: $font-bold !important;
+  margin-bottom: 10px !important;
+  color: $primary-color !important;
+}
+.footer-item2 {
+  span {
+    width: 100%;
+    display: block;
+    font-size: $font-sm;
+    font-weight: $font-semibold;
+    margin-bottom: 5px;
+    color: $primary-color;
+  }
+}
+.footer-item3 {
+  p {
+    width: 80%;
+    font-size: $font-xs;
+    color: $primary-color;
+  }
+}
+.footer-item4 {
+  p {
+    font-size: $font-lg;
+    font-weight: $font-bolder;
+    margin: 5px 0px;
+  }
+}
+.footer-subscribe {
+  position: relative;
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid $secondary-color;
+    margin: 5px 0;
+  }
+  button {
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    background-color: $red !important;
+    font-size: $font-xxs;
+    color: black !important;
+    font-weight: $font-semibold;
+    border: 0px !important;
+    :hover {
+      background-color: transparent !important;
+      color: $red !important;
+      border: 1px solid $red !important;
+    }
+  }
+}

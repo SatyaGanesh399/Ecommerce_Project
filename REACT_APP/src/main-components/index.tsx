@@ -4,6 +4,9 @@ import Carousal from './Carousal'
 import DisplayTabs from './DisplayTabs'
 import Services from './Services'
 import HappyHours from './HappyHours'
+import RecentNews from './RecentNews';
+import Sponsers from './Sponsers';
+import Footer from './Footer';
 
 const index = () => {
   return (
@@ -13,6 +16,9 @@ const index = () => {
     <DisplayTabs />
     <Services />
     <HappyHours />
+    <RecentNews />
+    <Sponsers />
+    <Footer />
     </>
   )
 }
